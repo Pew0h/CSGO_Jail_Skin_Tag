@@ -88,14 +88,14 @@ public void Event_Team(Event event, const char[] name, bool dontBroadcast) {
 
 public void setBasicJail(int client){
 	
-	if(GetClientTeam(client) == CS_TEAM_CT){
+	if(GetClientTeam(client) == CS_TEAM_CT && IsValidClient(client)){
 		CS_SetClientClanTag(client, "[Gardien]");
 		
 		SetEntityModel(client, GARDIEN_MDL);
 		SetEntPropString(client, Prop_Send, "m_szArmsModel", GARDIEN_ARM_MDL);
 	}
 	
-	else if(GetClientTeam(client) == CS_TEAM_T){
+	else if(GetClientTeam(client) == CS_TEAM_T && IsValidClient(client)){
 		CS_SetClientClanTag(client, "[Prisonnier]");
 		
 		SetEntityModel(client, PRISONNIER_MDL);
