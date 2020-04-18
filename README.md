@@ -4,7 +4,7 @@ Basic script Ba_Jail CSGO - TAG and SKIN
 *Sourcemod version : SM 1.11*
 
 *********************
-# *Fonctionnalités* :
+# *Fonctionnalitées* :
 ```diff
 - [+] - TAG pour les terroristes : [PRISONNIER] ✔️
 
