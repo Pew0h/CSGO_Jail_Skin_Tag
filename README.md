@@ -5,11 +5,13 @@ Basic script Ba_Jail CSGO - TAG and SKIN
 
 *********************
 # *Fonctionnalités* :
-[+] - TAG pour les terroristes : [PRISONNIER]
+```diff
+- [+] - TAG pour les terroristes : [PRISONNIER]
 
-[+] - SKin prisonnier en étant du coté terroriste
+- [+] - SKin prisonnier en étant du coté terroriste
 
 
-[+] - TAG pour les anti-terroristes : [GARDIEN]
+! [+] - TAG pour les anti-terroristes : [GARDIEN]
 
-[+] - Skin gardien en étant du coté anti-terroriste
+! [+] - Skin gardien en étant du coté anti-terroriste
+```
